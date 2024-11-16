@@ -1,0 +1,54 @@
+/* Center the content on the page */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f7f7f7; /* Light background for contrast */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style for the header text */
+  .page-container h2 {
+    color: #4a90e2; /* Ionic blue color */
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Style for the input field */
+  .ion-input {
+    border: 2px solid #4a90e2; /* Match the blue color */
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  /* Style for the button */
+  .ion-button {
+    --background: #4a90e2;
+    --background-hover: #357abd;
+    --background-activated: #2a5d8f;
+    --color: #fff;
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 200px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style for the result text */
+  .result-text {
+    color: #333; /* Dark gray for readability */
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
