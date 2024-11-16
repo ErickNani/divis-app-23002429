@@ -1,0 +1,8 @@
+{
+  "name": "DivisApp 23002429",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite",
+  "id": "5a847372"
+}
